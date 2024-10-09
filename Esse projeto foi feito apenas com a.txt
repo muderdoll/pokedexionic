@@ -1,0 +1,3 @@
+Esse projeto foi feito apenas com angular na versão 12, mas atualmente estamos na 17, portanto para abrir o projeto como ionic deve se usar o comando: ionic serve --project pokedex e se apresentar erro utilizar os seguintes códigos no powershell para forçar o modo legado.
+set NODE_OPTIONS=--openssl-legacy-provider
+$env:NODE_OPTIONS="--openssl-legacy-provider"
